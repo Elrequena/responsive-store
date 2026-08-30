@@ -1,39 +1,50 @@
 {
-  "name": "responsive-store",
+  "name": "requena-labs-supply",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy": "ng build --configuration production && node scripts/deploy.js"
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^14.2.5",
-    "@angular/common": "^14.2.5",
-    "@angular/compiler": "^14.2.5",
-    "@angular/core": "^14.2.5",
-    "@angular/forms": "^14.2.5",
-    "@angular/platform-browser": "^14.2.5",
-    "@angular/platform-browser-dynamic": "^14.2.5",
-    "@angular/router": "^14.2.5",
-    "rxjs": "~7.4.0",
-    "tslib": "^2.3.0",
-    "zone.js": "~0.11.4"
+    "@angular/common": "21.2.18",
+    "@angular/compiler": "21.2.18",
+    "@angular/core": "21.2.18",
+    "@angular/forms": "21.2.18",
+    "@angular/platform-browser": "21.2.18",
+    "@angular/router": "21.2.18",
+    "@fortawesome/fontawesome-free": "7.3.0",
+    "@jsverse/transloco": "^8.4.0",
+    "rxjs": "7.8.2",
+    "tslib": "2.3.0",
+    "zone.js": "0.15.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^14.2.5",
-    "@angular/cli": "^14.2.5",
-    "@angular/compiler-cli": "^14.2.5",
-    "@types/jasmine": "~3.10.0",
-    "@types/node": "^12.11.1",
-    "jasmine-core": "~3.10.0",
-    "karma": "~6.3.0",
-    "karma-chrome-launcher": "~3.1.0",
-    "karma-coverage": "~2.0.3",
-    "karma-jasmine": "~4.0.0",
-    "karma-jasmine-html-reporter": "~1.7.0",
-    "typescript": "~4.8.4"
+    "@angular/build": "21.2.18",
+    "@angular/cli": "21.2.18",
+    "@angular/compiler-cli": "21.2.18",
+    "@types/node": "22.15.0",
+    "jsdom": "26.0.0",
+    "typescript": "5.9.2",
+    "vitest": "3.2.0"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": ">=20.19.0",
+      "onFail": "error"
+    },
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.17.0",
+      "onFail": "download"
+    }
   }
 }

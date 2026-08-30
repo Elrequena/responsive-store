@@ -1,27 +1,36 @@
-# ResponsiveStore
+# Requena Labs Supply
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
+Frontend e-commerce zoneless en Angular 21, standalone components y estado con signals. La interfaz usa Transloco (`es` por defecto, `en` alternativo), tema oscuro/claro y consume el backend NestJS.
 
-## Development server
+## Desarrollo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```bash
+pnpm install
+pnpm start
+```
 
-## Code scaffolding
+La API de desarrollo se configura en `src/environments/environment.ts`:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```ts
+apiUrl: 'http://localhost:3000/api'
+```
 
-## Build
+Producción usa `https://requena-labs-api.onrender.com/api`.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Compilar y desplegar
 
-## Running unit tests
+```bash
+pnpm build
+pnpm deploy
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+`pnpm deploy` genera la aplicación con base `/Responsive-Store/` y publica el contenido compilado para GitHub Pages.
 
-## Running end-to-end tests
+## Cuenta administrativa de demostración
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Correo: `admin@requenalabs.supply`
+- Contraseña: `Admin123!`
 
-## Further help
+También hay un cliente de demo: `demo@requenalabs.supply` / `Demo123!`.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Las credenciales deben existir en el seed del backend. Nunca se incluyen tokens ni secretos en este repositorio.
