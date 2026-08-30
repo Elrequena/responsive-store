@@ -37,7 +37,7 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "/Responsive-Store/",
+              "baseHref": "/responsive-store/",
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",

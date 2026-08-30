@@ -24,7 +24,7 @@ pnpm build
 pnpm deploy
 ```
 
-`pnpm deploy` genera la aplicación con base `/Responsive-Store/` y publica el contenido compilado para GitHub Pages.
+`pnpm deploy` genera la aplicación con base `/responsive-store/` y publica el contenido compilado para GitHub Pages.
 
 ## Cuenta administrativa de demostración
 
