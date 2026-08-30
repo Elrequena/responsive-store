@@ -1,0 +1,15 @@
+{
+  "nav": { "home": "Home", "catalog": "Catalog", "search": "Search artifacts", "cart": "Cart", "login": "Sign in", "profile": "Profile", "admin": "Administration", "logout": "Log out" },
+  "home": { "eyebrow": "Questionable utility laboratory", "tagline": "Solutions nobody asked for, engineered beyond all expectations.", "subtitle": "Rigorously designed objects for problems that probably do not exist.", "cta": "Explore inventions", "featured": "Featured experiments", "categories": "Lab departments" },
+  "catalog": { "title": "Anomaly catalog", "filters": "Filters", "category": "Category", "price": "Price", "stock": "In stock only", "tags": "Tags", "sort": "Sort", "newest": "Newest", "popular": "Suspicious popularity", "empty": "No invention matched. The universe may be protecting you.", "clear": "Clear filters" },
+  "product": { "add": "Add to cart", "related": "Also unnecessary", "stock": "{{count}} left", "out": "Sold out. Someone regretted it before you.", "uselessness": "Uselessness", "regret": "Regret risk", "utility": "Questionable utility", "impress": "Impress probability" },
+  "cart": { "title": "Experimental cart", "empty": "Your cart is empty. Your financial judgment remains intact.", "subtotal": "Subtotal", "discount": "Discount", "total": "Total", "checkout": "Proceed with experiment", "coupon": "Coupon code", "apply": "Apply", "added": "Added. Necessity remains under review." },
+  "checkout": { "title": "Checkout", "address": "Address", "summary": "Summary", "confirmation": "Confirmation", "pay": "Pay {{total}}", "confirmed": "Order confirmed. Science cannot undo this.", "order": "Order number" },
+  "auth": { "login": "Enter the lab", "register": "Create credential", "email": "Email", "password": "Password", "firstName": "First name", "lastName": "Last name", "submit": "Continue", "logout": "Signed out. Your decisions stay between us." },
+  "profile": { "title": "My dossier", "orders": "Orders", "addresses": "Addresses", "save": "Save changes" },
+  "admin": { "dashboard": "Dashboard", "products": "Products", "categories": "Categories", "orders": "Orders", "users": "Users", "inventory": "Inventory", "coupons": "Coupons", "save": "Save", "delete": "Delete" },
+  "errors": { "404": "This invention does not exist. Yet.", "500": "The lab had a small digital fire.", "back": "Return to safety" },
+  "coupons": { "invalid": "Invalid coupon. Capitalism still works.", "applied": "Coupon applied. Accounting is confused." },
+  "stock": { "low": "Low stock", "out": "Out of stock" },
+  "footer": { "brand": "Requena Labs Supply. Inventing the unnecessary since 2026.", "tagline": "Excessive engineering for minimal needs." }
+}

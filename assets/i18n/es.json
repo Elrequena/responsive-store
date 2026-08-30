@@ -1,0 +1,15 @@
+{
+  "nav": { "home": "Inicio", "catalog": "Catálogo", "search": "Buscar artefactos", "cart": "Carrito", "login": "Entrar", "profile": "Perfil", "admin": "Administración", "logout": "Cerrar sesión" },
+  "home": { "eyebrow": "Laboratorio de utilidad cuestionable", "tagline": "Soluciones que nadie pidio, con ingenieria que nadie esperaba.", "subtitle": "Objetos rigurosamente diseñados para problemas que probablemente no existen.", "cta": "Explorar inventos", "featured": "Experimentos destacados", "categories": "Departamentos del laboratorio" },
+  "catalog": { "title": "Catálogo de anomalías", "filters": "Filtros", "category": "Categoría", "price": "Precio", "stock": "Solo disponibles", "tags": "Etiquetas", "sort": "Ordenar", "newest": "Más recientes", "popular": "Popularidad sospechosa", "empty": "Ningún invento coincide. Quizá el universo intenta protegerte.", "clear": "Limpiar filtros" },
+  "product": { "add": "Añadir al carrito", "related": "También innecesario", "stock": "Quedan {{count}}", "out": "Agotado. Alguien se arrepintió antes que tú.", "uselessness": "Inutilidad", "regret": "Riesgo de arrepentimiento", "utility": "Utilidad cuestionable", "impress": "Probabilidad de impresionar" },
+  "cart": { "title": "Carrito experimental", "empty": "Tu carrito está vacío. Tu criterio financiero sigue intacto.", "subtotal": "Subtotal", "discount": "Descuento", "total": "Total", "checkout": "Proceder al experimento", "coupon": "Código de cupón", "apply": "Aplicar", "added": "Añadido. La necesidad sigue pendiente de revisión." },
+  "checkout": { "title": "Finalizar compra", "address": "Dirección", "summary": "Resumen", "confirmation": "Confirmación", "pay": "Pagar {{total}}", "confirmed": "Pedido confirmado. La ciencia no puede deshacer esto.", "order": "Número de pedido" },
+  "auth": { "login": "Entrar al laboratorio", "register": "Crear credencial", "email": "Correo", "password": "Contraseña", "firstName": "Nombre", "lastName": "Apellido", "submit": "Continuar", "logout": "Sesión cerrada. Tus decisiones quedan entre nosotros." },
+  "profile": { "title": "Mi expediente", "orders": "Pedidos", "addresses": "Direcciones", "save": "Guardar cambios" },
+  "admin": { "dashboard": "Panel", "products": "Productos", "categories": "Categorías", "orders": "Órdenes", "users": "Usuarios", "inventory": "Inventario", "coupons": "Cupones", "save": "Guardar", "delete": "Eliminar" },
+  "errors": { "404": "Este invento no existe. Aún.", "500": "El laboratorio tuvo un pequeño incendio digital.", "back": "Volver a zona segura" },
+  "coupons": { "invalid": "Cupón inválido. El capitalismo sigue funcionando.", "applied": "Cupón aplicado. Contabilidad está confundida." },
+  "stock": { "low": "Stock bajo", "out": "Sin stock" },
+  "footer": { "brand": "Requena Labs Supply. Inventando lo innecesario desde 2026.", "tagline": "Ingeniería excesiva para necesidades mínimas." }
+}
